@@ -23,6 +23,9 @@ public class MetaModel  implements Serializable {
         this.path = "";
         this.query = "";
         this.selector = "";
+        this.action = action;
+        this.method = method;
+        this.type = type;
     }
 
     public String getType() {

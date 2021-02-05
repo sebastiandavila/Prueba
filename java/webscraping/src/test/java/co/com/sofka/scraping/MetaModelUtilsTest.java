@@ -58,7 +58,7 @@ public class MetaModelUtilsTest {
         MetaModelUtils metaModelUtils = new MetaModelUtils(jsonNode);
         MetaModel mm = metaModelUtils.toParse("key");
 
-        Assert.assertEquals("method[actionpath?query]:type --> selector", mm.toString());
+        Assert.assertEquals("methods[actionspath?query]:type --> selector", mm.toString());
 
         verify(jsonNode).get("key");
         verify(node, times(2)).get("selector");

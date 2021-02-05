@@ -7,7 +7,7 @@ import org.jsoup.nodes.Element;
 
 public class TextSelector implements Selector<Element> {
     @Override
-    public void accept(String label, ModelState modelState) {
+    public void accept(String label, ModelState modelState, Element element) {
         modelState.setMetaModel(null)
                 .putExtra(label, element.text());
     }

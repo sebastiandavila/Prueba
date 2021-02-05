@@ -66,8 +66,8 @@ public class SelectorTest {
         String html = "";
 
         html += "<div>";
-        html += "<span class='pais'>MEDELLIN</span>";
-        html += "<span class='pais'>CALI</span>";
+        html += "<span class='pais'>Colombia</span>";
+        html += "<span class='pais'>Argentina</span>";
         html += "</div>";
 
         Document document = Jsoup.parse(html);

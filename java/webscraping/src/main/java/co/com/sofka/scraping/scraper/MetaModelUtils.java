@@ -60,6 +60,7 @@ public class MetaModelUtils {
         newMetaModel.setPath(path);
         newMetaModel.setQuery(query);
         newMetaModel.setSelector(selector);
+        return newMetaModel;
     }
 
 
