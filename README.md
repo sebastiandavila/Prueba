@@ -1,3 +1,7 @@
+El reto fue resuelto por:
+-Luisa Maria Polanco Rodriguez
+-Sebastian Davila Garcia
+
 # CHALLENGE - BASE DE JAVA Y JAVASCRIPT #
 
 ## Summary ##
